@@ -1,0 +1,251 @@
+<link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/17433/include/4-banner.css">
+<link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/17433/include/6.css">
+<link href="https://www-media.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
+
+<style>
+  /*Stanford header*/
+  .site-title>img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: 100px;
+    margin-right: 24px;
+  }
+
+  .layout-container {
+    padding: 0px;
+  }
+
+  .site-top-bar>.layout-container>a>img {
+    display: none;
+  }
+
+  .secondary-menu>li {
+    margin-right: 0px !important;
+  }
+
+  .secondary-menu>li>a {
+
+    font-size: .875rem;
+    padding: 0 5px;
+    line-height: 35px;
+  }
+
+  .form-item-site-email {
+    display: none;
+  }
+
+  /*Skip to Main Content link*/
+  #s-lc-public-skiplink {
+    display: none;
+  }
+
+  /*LibCal Customizations */
+  .s-lc-box-title h1 {
+    font-size: 22px;
+  }
+
+  /*Stanford footer*/
+  #policy-links>li>a {
+    font-size: 16px !important;
+  }
+
+  #bottom-text>ul>li>a:hover {
+    text-decoration: underline
+  }
+
+  #bottom-text>ul {
+    margin-left: 0px !important;
+  }
+
+  #s-lc-footer-support-link {
+    display: none !important;
+  }
+
+
+  /*Breadcrumb*/
+  .s-lc-desktop-only {
+    display: none !important;
+  }
+
+  .breadcrumb>li+li:before {
+    content: "\00BB" !important;
+    color: #2e2d29 !important;
+    padding: 0 5px;
+  }
+
+  .breadcrumb {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Source Sans Pro', 'Arial Unicode MS', Helvetica, sans-serif;
+    color: #2e2d29;
+    line-height: 1.6;
+    box-sizing: border-box;
+    list-style: none;
+    border-radius: 4px;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    margin-bottom: 12px !important;
+    margin-top: 0px !important;
+    padding: 12px 0 !important;
+    margin: 5px 0 10px;
+    background-color: transparent;
+  }
+
+
+
+
+  #s-lc-public-bc>div>ol {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Source Sans Pro', 'Arial Unicode MS', Helvetica, sans-serif;
+    color: #2e2d29;
+    line-height: 1.6;
+    box-sizing: border-box;
+    list-style: none;
+    border-radius: 4px;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    margin-bottom: 12px !important;
+    margin-top: 0px !important;
+    padding: 12px 0 !important;
+    margin: 5px 0 10px;
+    background-color: transparent;
+  }
+
+
+  /*LibCal footer*/
+  #s-lc-public-footer>div.s-lc-public-footer-actions {
+    display: none;
+  }
+
+  #s-lc-public-footer {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Source Sans Pro', 'Arial Unicode MS', Helvetica, sans-serif;
+    color: #2e2d29;
+    line-height: 1.6;
+    box-sizing: border-box;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 5px;
+    font-size: .9em;
+    padding-bottom: 5px;
+    border-top: 1px solid #bbb;
+    background-color: transparent !important;
+    border-color: #dad7cb !important;
+    margin-top: 30px !important;
+    margin-bottom: 48px !important;
+    text-align: left !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /*Headings*/
+  h2 {
+    margin-top: 0 !important;
+    margin-bottom: 12px;
+    font-weight: 100 !important;
+    color: #544948 !important;
+    line-height: 1.2 !important;
+    font-size: 1.625rem !important;
+  }
+
+  /*Radio labels*/
+  .radio label {
+    margin-bottom: 10px;
+  }
+
+  .margin-bottom-sm {
+    margin-bottom: 0px !important;
+  }
+
+  /*Buttons*/
+  .btn {
+    border-radius: 0px !important;
+  }
+
+  .btn-primary,
+  .btn-primary.focus,
+  .btn-primary:focus,
+  .btn-primary.active,
+  .btn-primary:active,
+  .open>.dropdown-toggle.btn-primary,
+  .btn-primary.active.focus,
+  .btn-primary.active:focus,
+  .btn-primary:active.focus,
+  .btn-primary:active:focus,
+  .open>.dropdown-toggle.btn-primary.focus,
+  .open>.dropdown-toggle.btn-primary:focus,
+  .btn-info {
+    background-color: #8c1515 !important;
+    border: none !important;
+    outline: none !important;
+  }
+
+  .btn-primary:hover,
+  .btn-info:hover,
+  .btn-primary.disabled.focus,
+  .btn-primary.disabled:focus,
+  .btn-primary.disabled:hover,
+  .btn-primary[disabled].focus,
+  .btn-primary[disabled]:focus,
+  .btn-primary[disabled]:hover,
+  fieldset[disabled] .btn-primary.focus,
+  fieldset[disabled] .btn-primary:focus,
+  fieldset[disabled] .btn-primary:hover,
+  .btn-primary:active:hover,
+  .btn-primary.active:hover,
+  .open>.dropdown-toggle.btn-primary:hover,
+  .btn-info.active.focus,
+  .btn-info.active:focus,
+  .btn-info.active:hover,
+  .btn-info:active.focus,
+  .btn-info:active:focus,
+  .btn-info:active:hover,
+  .open>.dropdown-toggle.btn-info.focus,
+  .open>.dropdown-toggle.btn-info:focus,
+  .open>.dropdown-toggle.btn-info:hover {
+    background-color: #600e0e !important;
+  }
+
+  /*Border around Your Details on Appt booking form*/
+  fieldset {
+    border: none;
+  }
+</style>
+
+
+
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var feedbackLink = document.querySelector('#feedback-link');
+    var feedbackSection = document.querySelector('.site-feedback');
+    var cancel = document.querySelector('.site-feedback .form-actions a');
+    var hamburgerButton = document.querySelector('button.nav-toggle');
+    var navContainer = document.querySelector('nav#navigation');
+    var sourceField = document.querySelector('[name="submitted[source]"]'); // new line 2021-09-07
+
+    feedbackLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      sourceField.value = window.location; // new line 2021-05-10
+      feedbackSection.setAttribute('style', 'display: block; max-height: 100%; opacity: 1;');
+    });
+
+    cancel.addEventListener('click', function(e) {
+      e.preventDefault();
+      feedbackSection.removeAttribute('style');
+    });
+
+    hamburgerButton.addEventListener('click', function(e) {
+      console.log(navContainer);
+      e.preventDefault();
+      if (navContainer.hasAttribute('style')) {
+        navContainer.removeAttribute('style');
+      } else {
+        navContainer.setAttribute('style', 'display: block;');
+      }
+    });
+  });
+</script>
