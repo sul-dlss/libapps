@@ -176,9 +176,9 @@
   .open>.dropdown-toggle.btn-primary.focus,
   .open>.dropdown-toggle.btn-primary:focus,
   .btn-info {
-    background-color: #8c1515 !important;
-    border: none !important;
-    outline: none !important;
+    background-color: #8c1515;
+    border: none;
+    outline: none;
   }
 
   .btn-primary:hover,
@@ -204,7 +204,17 @@
   .open>.dropdown-toggle.btn-info.focus,
   .open>.dropdown-toggle.btn-info:focus,
   .open>.dropdown-toggle.btn-info:hover {
-    background-color: #600e0e !important;
+    background-color: #600e0e;
+  }
+
+  /* Keyboard focus style for buttons */
+  .btn-primary:focus,
+  .btn-primary:active:focus,
+  .btn-info:focus,
+  .btn-info:active:focus {
+    background-color: #6b1010;
+    border-color: #600e0e;
+    box-shadow: 0 0 0 0.2rem rgba(157,56,56,0.5);
   }
 
   /*Border around Your Details on Appt booking form*/
